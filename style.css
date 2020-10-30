@@ -1,0 +1,243 @@
+*{
+    cursor: default;
+}
+
+body{
+    margin: auto 0px;
+    font-family: Arial;
+    background: #000000; 
+    height: 100vh;
+    cursor: default;
+}
+
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    /* border:1px solid rgb(27, 27, 27); */
+    transition: all 0.3s linear;
+    cursor: default;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.box:hover {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border:1px solid rgb(27, 27, 27);
+
+}
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0px;
+    border:1px solid rgb(27, 27, 27);
+
+}
+
+@media all and (max-width:800px){
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0px;
+    }
+} 
+
+li{
+    padding: 20px;
+}
+
+a{
+    color: #f5f5f6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.push{
+    margin-left: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    height: 90vh;
+    cursor: default;
+
+}
+
+.cover{
+    width: 30rem;
+    height: 10em;
+    margin: 40px;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.boxes{
+    background-color: rgb(24, 23, 23);
+    padding: 60.5px;
+   padding-top: 90.5px;
+    color:#FFF;
+    font-size:30px;
+    border-radius:4px;
+    border:1px solid #bbb;
+    text-align: center;
+    margin: 60px;
+}
+
+.box{
+    background-color: rgb(24, 23, 23);
+    padding: 60.5px;
+   padding-top: 90.5px;
+      color:#FFF;
+    font-size:30px;
+    border-radius:4px;
+    border:1px solid #bbb;
+    text-align: center;
+    margin: 10px;
+}
+
+button{
+    /* background-color: #febf04; */
+    background-color: #f05912;
+    border: #f05912 1px solid;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* Styles for TRICK OR TREAT */
+.zones {
+    cursor:pointer;
+    color:#FFF;
+    font-size:1.2em;
+    border-radius:4px;
+    transition: all 0.3s linear;
+    cursor: default;
+}
+
+.blues{
+    margin: 30px;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+    color: #f05912;
+    font-size: 6rem;
+}
+h2{
+    color: #f05912;
+}
+
+span{
+    color: #f05912;
+}
+
+.special{
+    margin-left: 30px;
+}
+
+.img{
+ height: 55vh;
+}
+
+img{
+left: 29.5em;
+ height: 50vh;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.movies{
+    margin: 40px;
+    text-align: center;
+    height: 55vh;
+}
+
+.all-movies{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(top, #000000 0%, #000000 44%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(44%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #0c0808 0%,#000000 44%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #000000 0%,#000000 44%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #000000 0%,#000000 44%,#000000 100%); /* IE10+ */
+    background: linear-gradient(top, #000000 0%,#000000 44%,#000000 100%); /* W3C */
+}
