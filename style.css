@@ -1,5 +1,7 @@
 *{
     cursor: default;
+    font-family: 'Fira Sans', sans-serif;
+    
 }
 
 body{
@@ -35,7 +37,7 @@ body{
 }
 
 p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .sticky{
